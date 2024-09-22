@@ -1,0 +1,18 @@
+# Ignorar la carpeta .deps
+.deps/
+
+# Ignorar la carpeta .states
+.states/
+
+# Ignorar la carpeta artifacts dentro de contracts
+contracts/artifacts/
+
+# Ignorar la carpeta artifacts dentro de tests
+tests/artifacts/
+
+# Ignorar archivos JSON de contratos si son generados o solo de prueba
+contracts/*.json
+
+# Archivos de entorno (si aplican)
+.env
+.secret
